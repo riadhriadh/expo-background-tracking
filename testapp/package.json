@@ -1,0 +1,31 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~56.0.11",
+    "expo-background-tracking": "file:..",
+    "expo-battery": "~56.0.4",
+    "expo-constants": "~56.0.18",
+    "expo-device": "~56.0.4",
+    "expo-location": "~56.0.17",
+    "expo-network": "~56.0.5",
+    "expo-sensors": "~56.0.6",
+    "expo-sqlite": "~56.0.5",
+    "expo-status-bar": "~56.0.4",
+    "expo-task-manager": "~56.0.18",
+    "react": "19.2.3",
+    "react-native": "0.85.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}

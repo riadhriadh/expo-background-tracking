@@ -1,0 +1,76 @@
+{"_e":"root:init","_t":1781262333571,"format":"v0-jsonl","version":"56.1.15"}
+{"_e":"env:mode","_t":1781262333572,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781262333573,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781262335858,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781262335972,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781262336305,"atlas":false,"workers":9,"host":"::","port":8082}
+{"_e":"metro:bundling:started","_t":1781262356076,"id":"2","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1781262356076,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781262356078,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781262356343,"id":"2","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781262356444,"id":"2","progress":0.16000000000000003,"total":10,"current":4}
+{"_e":"metro:bundling:progress","_t":1781262356584,"id":"2","progress":0.25,"total":10,"current":5}
+{"_e":"metro:bundling:progress","_t":1781262356683,"id":"2","progress":0.25,"total":78,"current":35}
+{"_e":"metro:bundling:progress","_t":1781262356785,"id":"2","progress":0.39220487705336193,"total":99,"current":62}
+{"_e":"metro:bundling:progress","_t":1781262356885,"id":"2","progress":0.39220487705336193,"total":210,"current":96}
+{"_e":"metro:bundling:progress","_t":1781262356986,"id":"2","progress":0.39220487705336193,"total":246,"current":119}
+{"_e":"metro:bundling:progress","_t":1781262357086,"id":"2","progress":0.39220487705336193,"total":296,"current":160}
+{"_e":"metro:bundling:progress","_t":1781262357186,"id":"2","progress":0.39220487705336193,"total":376,"current":231}
+{"_e":"metro:bundling:progress","_t":1781262357286,"id":"2","progress":0.4404404608431126,"total":443,"current":294}
+{"_e":"metro:bundling:progress","_t":1781262357386,"id":"2","progress":0.4774048298096596,"total":508,"current":351}
+{"_e":"metro:bundling:progress","_t":1781262357486,"id":"2","progress":0.6029757805325987,"total":528,"current":410}
+{"_e":"metro:bundling:progress","_t":1781262357586,"id":"2","progress":0.7486544942407324,"total":564,"current":488}
+{"_e":"metro:bundling:progress","_t":1781262357687,"id":"2","progress":0.8633132887841283,"total":621,"current":577}
+{"_e":"metro:bundling:progress","_t":1781262357787,"id":"2","progress":0.9727903921936573,"total":657,"current":648}
+{"_e":"metro:bundling:progress","_t":1781262357887,"id":"2","progress":0.9940298640855659,"total":669,"current":667}
+{"_e":"metro:bundling:progress","_t":1781262358228,"id":"2","progress":0.9970126977104797,"total":669,"current":668}
+{"_e":"metro:bundling:progress","_t":1781262358328,"id":"2","progress":0.9970126977104797,"total":749,"current":728}
+{"_e":"metro:bundling:progress","_t":1781262358430,"id":"2","progress":0.9973736058612968,"total":761,"current":760}
+{"_e":"metro:bundling:progress","_t":1781262358823,"id":"2","progress":0.999,"total":761,"current":761}
+{"_e":"metro:bundling:progress","_t":1781262358924,"id":"2","progress":0.999,"total":771,"current":771}
+{"_e":"metro:bundling:done","_t":1781262358959,"id":"2","total":771,"ms":2883.346208}
+{"_e":"metro:client_log","_t":1781262359537,"level":"log","data":["[expo-background-tracking][INFO] ready() — env=Expo Go (foreground-only)"]}
+{"_e":"metro:client_log","_t":1781262366564,"level":"warn","data":["[expo-background-tracking][WARN] Expo Go detected: background tracking unavailable (foreground-only). Use a development build for full background support."]}
+{"_e":"metro:client_log","_t":1781262366573,"level":"log","data":["[expo-background-tracking][INFO] enabledchange: true"]}
+{"_e":"metro:client_log","_t":1781262373565,"level":"log","data":["[expo-background-tracking][INFO] motionchange: moving"]}
+{"_e":"metro:client_log","_t":1781262436393,"level":"log","data":["[expo-background-tracking][INFO] motionchange: stationary"]}
+{"_e":"metro:client_log","_t":1781262436436,"level":"log","data":["[expo-background-tracking][INFO] Geofence ENTER: gf-1781262374471"]}
+{"_e":"metro:client_log","_t":1781262677139,"level":"log","data":["[expo-background-tracking][INFO] enabledchange: false"]}
+{"_e":"metro:client_log","_t":1781262679845,"level":"warn","data":["[expo-background-tracking][WARN] Expo Go detected: background tracking unavailable (foreground-only). Use a development build for full background support."]}
+{"_e":"metro:client_log","_t":1781262679846,"level":"log","data":["[expo-background-tracking][INFO] enabledchange: true"]}
+{"_e":"metro:client_log","_t":1781262679867,"level":"log","data":["[expo-background-tracking][INFO] Geofence ENTER: gf-1781262437992"]}
+{"_e":"root:init","_t":1781262707320,"format":"v0-jsonl","version":"56.1.15"}
+{"_e":"env:mode","_t":1781262707321,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1781262707322,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1781262708975,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1781262709157,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1781262709438,"atlas":false,"workers":9,"host":"::","port":8082}
+{"_e":"metro:bundling:started","_t":1781262713001,"id":"1","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1781262713001,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781262713003,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1781262713255,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1781262713356,"id":"1","progress":0.16000000000000003,"total":9,"current":4}
+{"_e":"metro:bundling:progress","_t":1781262713480,"id":"1","progress":0.25,"total":9,"current":5}
+{"_e":"metro:bundling:progress","_t":1781262713580,"id":"1","progress":0.25,"total":58,"current":22}
+{"_e":"metro:bundling:progress","_t":1781262713682,"id":"1","progress":0.39590960737280645,"total":89,"current":56}
+{"_e":"metro:bundling:progress","_t":1781262713782,"id":"1","progress":0.39590960737280645,"total":199,"current":77}
+{"_e":"metro:bundling:progress","_t":1781262713882,"id":"1","progress":0.39590960737280645,"total":243,"current":106}
+{"_e":"metro:bundling:progress","_t":1781262713984,"id":"1","progress":0.39590960737280645,"total":300,"current":152}
+{"_e":"metro:bundling:progress","_t":1781262714084,"id":"1","progress":0.39590960737280645,"total":361,"current":220}
+{"_e":"metro:bundling:progress","_t":1781262714184,"id":"1","progress":0.472842683781838,"total":461,"current":317}
+{"_e":"metro:bundling:progress","_t":1781262714284,"id":"1","progress":0.6075698651129842,"total":526,"current":410}
+{"_e":"metro:bundling:progress","_t":1781262714384,"id":"1","progress":0.7675620643746575,"total":565,"current":495}
+{"_e":"metro:bundling:progress","_t":1781262714484,"id":"1","progress":0.8633132887841283,"total":621,"current":577}
+{"_e":"metro:bundling:progress","_t":1781262714584,"id":"1","progress":0.9760128671494124,"total":663,"current":655}
+{"_e":"metro:bundling:progress","_t":1781262714685,"id":"1","progress":0.9940298640855659,"total":669,"current":667}
+{"_e":"metro:bundling:progress","_t":1781262715003,"id":"1","progress":0.9970126977104797,"total":669,"current":668}
+{"_e":"metro:bundling:progress","_t":1781262715103,"id":"1","progress":0.9970126977104797,"total":750,"current":730}
+{"_e":"metro:bundling:progress","_t":1781262715205,"id":"1","progress":0.9973736058612968,"total":761,"current":760}
+{"_e":"metro:bundling:progress","_t":1781262715657,"id":"1","progress":0.999,"total":761,"current":761}
+{"_e":"metro:bundling:progress","_t":1781262715760,"id":"1","progress":0.999,"total":771,"current":771}
+{"_e":"metro:bundling:done","_t":1781262715857,"id":"1","total":771,"ms":2856.379209}
+{"_e":"metro:client_log","_t":1781262716169,"level":"log","data":["[expo-background-tracking][INFO] ready() — env=Expo Go (foreground-only)"]}
+{"_e":"metro:client_log","_t":1781262723402,"level":"warn","data":["[expo-background-tracking][WARN] Expo Go detected: background tracking unavailable (foreground-only). Use a development build for full background support."]}
+{"_e":"metro:client_log","_t":1781262723416,"level":"log","data":["[expo-background-tracking][INFO] enabledchange: true"]}
+{"_e":"metro:client_log","_t":1781262723429,"level":"log","data":["[expo-background-tracking][INFO] Geofence ENTER: gf-1781262374471"]}
+{"_e":"metro:client_log","_t":1781262723429,"level":"log","data":["[expo-background-tracking][INFO] Geofence ENTER: gf-1781262437992"]}
