@@ -10,12 +10,7 @@ export class Logger {
     if (level > this.level) return;
     const line = `[${tag}] ${message}`;
     if (this.debug || level <= LogLevel.WARNING) {
-      const fn =
-        level === LogLevel.ERROR
-          ? console.error
-          : level === LogLevel.WARNING
-          ? console.warn
-          : console.log;
+      const fn = level === LogLevel.ERROR ? console.error : console.warn;
       fn(`[expo-background-tracking]${line}`);
     }
     database.insertLog(LogLevel[level], line).catch(() => undefined);

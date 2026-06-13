@@ -1,7 +1,6 @@
 import * as ExpoLocation from 'expo-location';
 import * as TaskManager from 'expo-task-manager';
 import * as Battery from 'expo-battery';
-import * as Network from 'expo-network';
 import * as Device from 'expo-device';
 import { Platform } from 'react-native';
 import { Accelerometer, Gyroscope, Magnetometer } from 'expo-sensors';

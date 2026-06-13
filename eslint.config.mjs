@@ -2,9 +2,13 @@ import tsPlugin from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
 
 export default [
+  // Global ignores — never lint test fixtures or generated output
+  {
+    ignores: ['src/__tests__/**', 'src/__mocks__/**', 'build/**', 'node_modules/**'],
+  },
+  // Source files
   {
     files: ['src/**/*.ts'],
-    ignores: ['src/__tests__/**', 'src/__mocks__/**'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
