@@ -1,6 +1,6 @@
 {
   "name": "expo-background-tracking",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Background geolocation & geofencing for Expo — battery-conscious motion-detection, SQLite persistence, HTTP sync. Expo Go compatible (foreground), full background in dev builds. No Firebase.",
   "keywords": [
     "expo",
@@ -15,13 +15,15 @@
     "tracker",
     "http-sync"
   ],
-  "homepage": "https://github.com/farhatired/expo-background-tracking#readme",
-  "bugs": {
-    "url": "https://github.com/farhatired/expo-background-tracking/issues"
-  },
+  "homepage": "https://github.com/riadhriadh/expo-background-tracking#readme",
+  "docs": "https://github.com/riadhriadh/expo-background-tracking",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhatired/expo-background-tracking.git"
+    "url": "git+https://github.com/riadhriadh/expo-background-tracking.git",
+    "directory": "."
+  },
+  "bugs": {
+    "url": "https://github.com/riadhriadh/expo-background-tracking/issues"
   },
   "license": "MIT",
   "author": "Farhati <farhatired@gmail.com>",
