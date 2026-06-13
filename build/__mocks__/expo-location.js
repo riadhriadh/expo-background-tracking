@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.hasStartedGeofencingAsync = exports.stopGeofencingAsync = exports.startGeofencingAsync = exports.hasServicesEnabledAsync = exports.hasStartedLocationUpdatesAsync = exports.stopLocationUpdatesAsync = exports.startLocationUpdatesAsync = exports.watchPositionAsync = exports.getCurrentPositionAsync = exports.getBackgroundPermissionsAsync = exports.getForegroundPermissionsAsync = exports.requestBackgroundPermissionsAsync = exports.requestForegroundPermissionsAsync = exports.GeofencingEventType = exports.LocationAccuracy = void 0;
+exports.LocationAccuracy = { Highest: 6, High: 5, Balanced: 4, Low: 3, Lowest: 2, BestForNavigation: 7 };
+exports.GeofencingEventType = { Enter: 1, Exit: 2 };
+exports.requestForegroundPermissionsAsync = jest.fn().mockResolvedValue({ status: 'granted' });
+exports.requestBackgroundPermissionsAsync = jest.fn().mockResolvedValue({ status: 'granted' });
+exports.getForegroundPermissionsAsync = jest.fn().mockResolvedValue({ status: 'granted' });
+exports.getBackgroundPermissionsAsync = jest.fn().mockResolvedValue({ status: 'granted' });
+exports.getCurrentPositionAsync = jest.fn();
+exports.watchPositionAsync = jest.fn().mockResolvedValue({ remove: jest.fn() });
+exports.startLocationUpdatesAsync = jest.fn().mockResolvedValue(undefined);
+exports.stopLocationUpdatesAsync = jest.fn().mockResolvedValue(undefined);
+exports.hasStartedLocationUpdatesAsync = jest.fn().mockResolvedValue(false);
+exports.hasServicesEnabledAsync = jest.fn().mockResolvedValue(true);
+exports.startGeofencingAsync = jest.fn().mockResolvedValue(undefined);
+exports.stopGeofencingAsync = jest.fn().mockResolvedValue(undefined);
+exports.hasStartedGeofencingAsync = jest.fn().mockResolvedValue(false);

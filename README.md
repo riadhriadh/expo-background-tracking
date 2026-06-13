@@ -64,10 +64,22 @@ const state = await BackgroundGeolocation.ready({
   autoSync: true,
   batchSync: false,
   headers: { 'X-API-KEY': 'xyz' },
+  locationAuthorizationRequest: 'Always', // 'Always' | 'WhenInUse'
   debug: true,
 });
 
-// 3. Start
+// 3. Start — permissions are requested automatically by the library.
+// start() calls requestForegroundPermissions + requestBackgroundPermissions
+// (when locationAuthorizationRequest === 'Always' and running in a dev build).
+// If you need to request permissions manually before starting:
+//
+//   const status = await BackgroundGeolocation.requestPermission();
+//   // status: AuthorizationStatus.ALWAYS | WHEN_IN_USE | DENIED
+//   if (status === BackgroundGeolocation.AUTHORIZATION_STATUS_DENIED) {
+//     console.warn('Location permission denied');
+//     return;
+//   }
+//
 if (!state.enabled) {
   await BackgroundGeolocation.start();
 }
@@ -246,6 +258,10 @@ Events: `onLocation`, `onMotionChange`, `onActivityChange`, `onGeofence`, `onGeo
 Methods: `ready`, `start`, `stop`, `startGeofences`, `startSchedule`, `stopSchedule`, `changePace`, `getCurrentPosition`, `watchPosition`, `stopWatchPosition`, `getState`, `setConfig`, `reset`, `getLocations`, `getCount`, `insertLocation`, `destroyLocations`, `destroyLocation`, `sync`, `getOdometer`, `setOdometer`, `resetOdometer`, `addGeofence`, `addGeofences`, `removeGeofence`, `removeGeofences`, `getGeofences`, `getGeofence`, `geofenceExists`, `getSensors`, `getDeviceInfo`, `isPowerSaveMode`, `getProviderState`, `requestPermission`, `requestTemporaryFullAccuracy`, `registerHeadlessTask`, `startBackgroundTask`, `stopBackgroundTask`, `getLog`, `destroyLog`, `emailLog`, `removeListeners`.
 
 ## Test app
+
+<img src="img/simulator_screenshot_9D93CA7C-B9BB-4B49-A192-BC0816811A3C.png" alt="expo-background-tracking demo — iOS simulator" width="320" />
+
+The test app demonstrates live location tracking, geofencing (ENTER/EXIT/DWELL), motion detection (MOVING/STATIONARY), heartbeat, HTTP sync, and the full event log.
 
 ```bash
 cd testapp
