@@ -1,6 +1,6 @@
 {
   "name": "expo-background-tracking",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Background geolocation & geofencing for Expo — battery-conscious motion-detection, SQLite persistence, HTTP sync. Expo Go compatible (foreground), full background in dev builds. No Firebase.",
   "keywords": [
     "expo",
@@ -175,9 +175,6 @@
     "leven": "^3.1.0",
     "lighthouse-logger": "^1.4.2",
     "lightningcss": "^1.32.0",
-    "lightningcss-darwin-arm64": "^1.32.0",
-    "lightningcss-linux-arm64-gnu": "^1.32.0",
-    "lightningcss-linux-arm64-musl": "^1.32.0",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
     "log-symbols": "^2.2.0",
@@ -359,5 +356,10 @@
     "react": "*",
     "react-native": "*"
   },
-  "react-native": "src/index.ts"
+  "react-native": "src/index.ts",
+  "optionalDependencies": {
+    "lightningcss-darwin-arm64": "^1.32.0",
+    "lightningcss-linux-arm64-gnu": "^1.32.0",
+    "lightningcss-linux-arm64-musl": "^1.32.0"
+  }
 }
